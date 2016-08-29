@@ -1,0 +1,29 @@
+{
+  "name": "ssl-node",
+  "version": "1.0.0",
+  "description": "Sluzba pro generovani selfsigned ssl certifikatu",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ssl",
+    "cert",
+    "key",
+    "selfsigned"
+  ],
+  "author": "Petr Pliska",
+  "license": "ISC",
+  "dependencies": {
+    "archiver": "1.0.1",
+    "body-parser": "1.15.2",
+    "express": "4.14.0",
+    "fs-promise": "0.5.0",
+    "material-design-lite": "1.2.0",
+    "pem": "1.8.3",
+    "tmp": "0.0.28"
+  },
+  "engines": {
+    "node": "6.4.0"
+  }
+}
