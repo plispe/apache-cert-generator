@@ -35,8 +35,8 @@ app.get('/', urlencodedParser, (req, res) => {
         zip.pipe(res);
 
         zip
-          .append(fs.readFileSync(certFile.name), {name: 'ssl/certs/server.crt'})
-          .append(fs.readFileSync(keyFile.name), {name: 'ssl/certs/server.key'})
+          .append(fs.readFileSync(certFile.name), {name: 'ssl/server.crt'})
+          .append(fs.readFileSync(keyFile.name), {name: 'ssl/server.key'})
           .finalize()
       })
     })
